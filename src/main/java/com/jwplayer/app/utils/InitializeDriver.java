@@ -38,8 +38,7 @@ public class InitializeDriver {
 		if (System.getProperty("PlatformName").compareTo("iOS") == 0) {
 			System.out.println("Running @Test for IOS device ");
 			platform = "iOS";
-			capabilities.setCapability("app","/Users/adamani/Downloads/JWPlayer-iOS-Demo.app");
-			 driver=new IOSDriver(new URL("http://127.0.0.1:4890/wd/hub"),capabilities);
+			driver=new IOSDriver(new URL("http://127.0.0.1:4890/wd/hub"),capabilities);
 			Thread.sleep(4000);
 			
 
