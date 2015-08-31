@@ -41,7 +41,6 @@ public class InitializeDriver {
 			driver=new IOSDriver(new URL("http://127.0.0.1:4890/wd/hub"),capabilities);
 			Thread.sleep(4000);
 			
-
 		} else {
 			System.out.println("Running @Test for Android device ");
 			platform = "Android";
