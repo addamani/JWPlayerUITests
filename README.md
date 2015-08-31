@@ -1,3 +1,2 @@
-AppiumSAAIntegration
-====================
 # JWPlayerUITests
+
